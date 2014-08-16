@@ -55,7 +55,7 @@ bitrate="320k"
 verbose=false
 
 ##setting the getopt function
-#the understanding version is in the show_help function
+#the understandable version is in the show_help function
 ARGS=$(getopt -o hvd:f:b: --long help,directory:,file:,verbose,bitrate: \
       -n 'flac2mp3.sh' -- "$@")
 if [ $? != 0 ] ; then exit 1 ; fi
